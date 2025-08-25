@@ -5631,5 +5631,28 @@ Responsive For Mobile & Tablet Devices
   }
 }
 
+.wa_icon {
+  color: #000000; /* hijau WhatsApp */
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.wa_icon:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.wa_title {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.wa_title:hover {
+  color: #00B4D8;
+  text-decoration: underline;
+}
+
+
 /* Media Screen 320px - End
 ================================================== */
