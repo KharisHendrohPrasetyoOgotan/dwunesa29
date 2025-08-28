@@ -732,12 +732,17 @@ ol[type="1"]>li:not(:last-child) {
   margin: 0;
 
 }
+
 .tags_list li {
-  margin-bottom: 12px; /* jarak antar tombol */
+  margin-bottom: 12px;
+  /* jarak antar tombol */
 }
+
 .tags_list li:last-child {
-  margin-bottom: 0; /* hapus jarak di tombol terakhir */
+  margin-bottom: 0;
+  /* hapus jarak di tombol terakhir */
 }
+
 .tags_list li a.btn_link {
   display: inline-block;
   padding: 12px 24px;
@@ -5632,7 +5637,8 @@ Responsive For Mobile & Tablet Devices
 }
 
 .wa_icon {
-  color: #000000; /* hijau WhatsApp */
+  color: #000000;
+  /* hijau WhatsApp */
   font-size: 24px;
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -5652,6 +5658,82 @@ Responsive For Mobile & Tablet Devices
   color: #00B4D8;
   text-decoration: underline;
 }
+
+.competition_card_new {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.competition_card_new:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+.card_header {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card_header.siswa { background: #00B4D8; }
+.card_header.mahasiswa { background: #00B4D8; }
+.card_header.umum { background: #00B4D8; }
+
+.card_body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card_title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card_title a {
+  text-decoration: none;
+  color: #222;
+  transition: color 0.3s;
+}
+
+.card_title a:hover {
+  color: #00B4D8;
+}
+
+.card_desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.btn_card {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #00B4D8;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn_card:hover {
+  background: #00B4D8;
+}
+
 
 
 /* Media Screen 320px - End
